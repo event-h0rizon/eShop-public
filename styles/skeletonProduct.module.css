@@ -1,0 +1,62 @@
+.skeletonLong{
+    height: 15px;
+    width: 200px;
+    background-color: rgb(71, 85, 105);
+    color: gray;
+    animation: pulse 1s infinite;
+}
+.skeletonShort{
+    height: 15px;
+    width: 120px;
+    background-color: rgb(71, 85, 105);
+    color: gray;
+    animation: pulse 1s infinite;
+}
+.skeletonBadge{
+    height: 15px;
+    width: 60px;
+    background-color: rgb(71, 85, 105);
+    color: gray;
+    animation: pulse 1s infinite;
+}
+.skeletonImage{
+    height: 400px;
+    width: 100%;
+    background-color: rgb(71, 85, 105);
+    color: gray;
+    animation: pulse 1s infinite;
+}
+.skeletonImageResponsive{
+    background-color: rgb(71, 85, 105);
+    color: gray;
+    animation: pulse 1s infinite;
+}
+.skeletonImagemD{
+    height: 300px;
+    width: 30%;
+    margin: 0px auto;
+    background-color: rgb(71, 85, 105);
+    color: gray;
+    animation: pulse 1s infinite;
+}
+.skeletonImagelG{
+    height: 300px;
+    width: 20%;
+    margin: 0px auto;
+    background-color: rgb(71, 85, 105);
+    color: gray;
+    animation: pulse 1s infinite;
+}
+
+@keyframes pulse {
+    0% {
+        background-color: rgb(71, 85, 105);
+      }
+      100% {
+        /* 71 85 105 */
+        background-color: rgba(71, 85, 105,0.4);
+
+
+      }
+    
+}
